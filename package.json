@@ -1,0 +1,19 @@
+{
+  "name": "web-wallet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:pactus-project/web-wallet.git",
+  "author": "Pactus Development Team <info@pactus.org>",
+  "license": "MIT",
+    "type": "module",
+  "devDependencies": {
+    "@trustwallet/wallet-core": "^4",
+    "@types/node": "^22",
+    "typescript": "^5",
+    "vite": "^6"
+  },
+  "dependencies": {
+    "argon2id": "^1.0.1",
+    "browserify-aes": "^1.2.0"
+  }
+}

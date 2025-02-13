@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Wallet</title>
+</head>
+<body>
+  <button onclick="handleGenerateWallet()">Generate Wallet</button>
+  <p id="address"></p>
+
+  <!-- Load the compiled JavaScript -->
+  <script src="dist/index.js"></script>
+
+  <script>
+    // Wrap the call in a function to trigger via button click
+    async function handleGenerateWallet() {
+      try {
+        const address = await window.generateWallet();
+        document.getElementById("address").innerText = address;
+      } catch (error) {
+        console.error("Error:", error);
+      }
+    }
+  </script>
+</body>
+</html>
