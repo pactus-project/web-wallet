@@ -1,5 +1,5 @@
 import { WalletCore } from '@trustwallet/wallet-core';
-import { AnyAddress, HDWallet } from '@trustwallet/wallet-core/dist/src/wallet-core';
+import { HDWallet } from '@trustwallet/wallet-core/dist/src/wallet-core';
 
 
 export class Wallet {

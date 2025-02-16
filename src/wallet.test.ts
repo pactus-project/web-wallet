@@ -1,5 +1,5 @@
 import { initWasm } from "@trustwallet/wallet-core";
-import { Wallet } from "../wallet";
+import { Wallet } from "./wallet";
 
 describe("Wallet", () => {
   let wallet: Wallet;
